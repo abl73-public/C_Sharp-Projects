@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|c:\\users\\abl\\github\\c_sharp-projects\\codefirststudentdb\\codefirststudentdb\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|solutionrelative:codefirststudentdb\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\codefirststudentdb\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|solutionrelative:codefirststudentdb\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\codefirststudentdb\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|solutionrelative:codefirststudentdb\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\codefirststudentdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48AD287-A472-40BA-950B-99A9D7872B2F}|CodeFirstStudentDb\\CodeFirstStudentDb.csproj|solutionrelative:codefirststudentdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SchoolContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\SchoolContext.cs",
+              "RelativeDocumentMoniker": "CodeFirstStudentDb\\SchoolContext.cs",
+              "ToolTip": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\SchoolContext.cs",
+              "RelativeToolTip": "CodeFirstStudentDb\\SchoolContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T01:36:52.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\Grade.cs",
+              "RelativeDocumentMoniker": "CodeFirstStudentDb\\Grade.cs",
+              "ToolTip": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\Grade.cs",
+              "RelativeToolTip": "CodeFirstStudentDb\\Grade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T01:34:45.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\Student.cs",
+              "RelativeDocumentMoniker": "CodeFirstStudentDb\\Student.cs",
+              "ToolTip": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\Student.cs",
+              "RelativeToolTip": "CodeFirstStudentDb\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T01:33:42.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\Program.cs",
+              "RelativeDocumentMoniker": "CodeFirstStudentDb\\Program.cs",
+              "ToolTip": "C:\\Users\\Abl\\GitHub\\C_Sharp-Projects\\CodeFirstStudentDb\\CodeFirstStudentDb\\Program.cs",
+              "RelativeToolTip": "CodeFirstStudentDb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T01:31:00.731Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

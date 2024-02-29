@@ -1,0 +1,12 @@
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\CodeFirstStudentDb.exe.config
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\CodeFirstStudentDb.exe
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\CodeFirstStudentDb.pdb
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\EntityFramework.dll
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\EntityFramework.xml
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\obj\Debug\CodeFirstStudentDb.csproj.AssemblyReference.cache
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\obj\Debug\CodeFirstStudentDb.csproj.CoreCompileInputs.cache
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\obj\Debug\CodeFirs.2FDB0923.Up2Date
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\obj\Debug\CodeFirstStudentDb.exe
+C:\Users\Abl\GitHub\C_Sharp-Projects\CodeFirstStudentDb\CodeFirstStudentDb\obj\Debug\CodeFirstStudentDb.pdb
