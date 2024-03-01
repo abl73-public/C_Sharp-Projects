@@ -26,106 +26,106 @@
     </tr>
 
     @*@foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BaseQuote)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MinusEighteen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OverTwentySix)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BetwNineteenAndTwentySix)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarYearBeforeOver)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarMakePorche)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarModelCarrera)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DUIYes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantityYes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CoverageTypeYes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalQuote)
+                </td>
+            </tr>
+        }*@
+
+
+    @foreach (var admin in Model)
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.FirstName)
+                @admin.FirstName
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.LastName)
+                @admin.LastName
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.EmailAddress)
+                @admin.EmailAddress
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.BaseQuote)
+                @admin.BaseQuote
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.MinusEighteen)
+                @admin.MinusEighteen
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.OverTwentySix)
+                @admin.OverTwentySix
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.BetwNineteenAndTwentySix)
+                @admin.BetwNineteenAndTwentySix
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CarYearBeforeOver)
+                @admin.CarYearBeforeOver
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CarMakePorche)
+                @admin.CarMakePorche
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CarModelCarrera)
+                @admin.CarModelCarrera
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DUIYes)
+                @admin.DUIYes
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantityYes)
+                @admin.SpeedingTicketsQuantityYes
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantity)
+                @admin.SpeedingTicketsQuantity
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CoverageTypeYes)
+                @admin.CoverageTypeYes
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TotalQuote)
+                @admin.TotalQuote
             </td>
         </tr>
-    }*@
+    }
 
-
-        @foreach (var admin in Model)
-            {
-                <tr>
-                    <td>
-                        @admin.FirstName
-                    </td>
-                    <td>
-                        @admin.LastName
-                    </td>
-                    <td>
-                        @admin.EmailAddress
-                    </td>
-                    <td>
-                        @admin.BaseQuote
-                    </td>
-                    <td>
-                        @admin.MinusEighteen
-                    </td>
-                    <td>
-                        @admin.OverTwentySix
-                    </td>
-                    <td>
-                        @admin.BetwNineteenAndTwentySix
-                    </td>
-                    <td>
-                        @admin.CarYearBeforeOver
-                    </td>
-                    <td>
-                        @admin.CarMakePorche
-                    </td>
-                    <td>
-                        @admin.CarModelCarrera
-                    </td>
-                    <td>
-                        @admin.DUIYes
-                    </td>
-                    <td>
-                        @admin.SpeedingTicketsQuantityYes
-                    </td>
-                    <td>
-                        @admin.SpeedingTicketsQuantity
-                    </td>
-                    <td>
-                        @admin.CoverageTypeYes
-                    </td>
-                    <td>
-                        @admin.TotalQuote
-                    </td>
-                </tr>
-            }
-
-    </table>
+</table>
