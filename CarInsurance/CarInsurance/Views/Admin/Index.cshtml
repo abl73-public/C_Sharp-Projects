@@ -3,11 +3,12 @@
 @model List<Admin>
 
 
+<div class="text-center font-weight-bold">
+    <h2>Admin</h2>
+</div>
 
-<h2>Admin</h2>
-
-<table class="table">
-    <tr>
+<table class="table table-bordered table-hover border-dark">
+    <tr class="text-center bg-danger text-white">
         <th>First Name</th>
         <th>Last Name</th>
         <th>Email Address</th>
@@ -15,7 +16,7 @@
         <th>Years <=18</th>
         <th>Years >=26</th>
         <th>Years 19-25</th>
-        <th>Car Year   < 2000 > 2015</th>
+        <th>Car Year < 2000&nbsp; > 2015</th>
         <th>Porche</th>
         <th>Porche Carrera</th>
         <th>Dui</th>
@@ -25,56 +26,6 @@
         <th>Total Quote</th>
     </tr>
 
-    @*@foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FirstName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.LastName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EmailAddress)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.BaseQuote)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MinusEighteen)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.OverTwentySix)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.BetwNineteenAndTwentySix)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CarYearBeforeOver)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CarMakePorche)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CarModelCarrera)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DUIYes)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantityYes)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantity)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CoverageTypeYes)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TotalQuote)
-                </td>
-            </tr>
-        }*@
 
 
     @foreach (var admin in Model)
@@ -128,4 +79,56 @@
         </tr>
     }
 
+    @*foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BaseQuote)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MinusEighteen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OverTwentySix)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BetwNineteenAndTwentySix)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarYearBeforeOver)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarMakePorche)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarModelCarrera)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DUIYes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantityYes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeedingTicketsQuantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CoverageTypeYes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalQuote)
+                </td>
+            </tr>
+        }*@
+
 </table>
+
